@@ -48,7 +48,7 @@ setup(
         "click",
         "python-dateutil",
         "requests",
-        "sqlite-utils~=2.4.4",
+        "sqlite-utils>=2.9",
         "tqdm~=4.36",
     ],
     extras_require={"test": ["pytest"]},
